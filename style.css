@@ -37,15 +37,10 @@
 }
 
 .hover\:bright-outline:hover::before {
-    border-color: rgba(255, 102, 102, 0.7); /* Adjust the color and opacity as needed */
+    border-color: rgba(255, 102, 102, 0.7);
+    /* Adjust the color and opacity as needed */
 }
 
-.header {
-    min-height: 100%;
-    background: linear-gradient(rgba(255, 163, 163, 0.3), rgb(243, 244, 246)), url(https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg);
-    background-size: cover;
-    background-blend-mode: multiply;
-}
 
 .glare-border {
     border-right: transparent;
@@ -55,3 +50,15 @@
     border-image: linear-gradient(to left, rgba(255, 102, 102, 0.7), transparent) 1;
 }
 
+.cardLeft,
+.cardRight {
+    height: 450px;
+}
+
+.typeAcc {
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 120px;
+}

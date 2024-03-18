@@ -18,7 +18,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css">
+ 
     <link rel="stylesheet" href="Profile.css">
 </head>
     <!-- Include any other necessary CSS or JS -->
@@ -27,10 +27,6 @@
 
   <body
     class="font-sans bg-gray-100"
-    style="
-      background: linear-gradient(rgba(255, 163, 163, 0.3), rgb(243, 244, 246)),
-        url(https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg);
-    "
   >
     <div id="header">
 
@@ -79,21 +75,12 @@
           <div class="childContent">
             <div
               class="leftContent content"
-              style="
-                border: 5px solid;
-                border-image: linear-gradient(
-                    to left,
-                    rgba(255, 102, 102, 0.7),
-                    transparent
-                  )
-                  1;
-              "
-            >
+              style="border: 5px solid; border-image: linear-gradient(to left, rgba(255, 102, 102, 0.7), transparent) 1;">
               <div class="profile">
-                <h3>Thông tin cá nhân</h3>
+                <p class="fancy" >Thông tin cá nhân</p>
               </div>
               <div class="itemProfile">
-                <label class="itemProfile_Child">Tên đăng nhập: </label>
+                <label class="itemProfile_Child" style="margin-top: 50px;">Tên đăng nhập: </label>
                 <label class="itemProfile_Child itemProfile_Child1"
                   >toandeptrai21</label
                 >
@@ -115,27 +102,21 @@
             <!---------------------------------------RIGHT-->
             <div
               class="rightContent content"
-              style="
-                z-index: 999;
-                margin-right: 0px;
-                border: 5px solid;
-                border-image: linear-gradient(
-                    to left,
-                    rgba(255, 102, 102, 0.7),
-                    transparent
-                  )
-                  1;
-              "
+              style="border: 5px solid; border-image: linear-gradient(to left, rgba(255, 102, 102, 0.7), transparent) 1;"
             >
               <div class="changedPass">
-                <h3>Thay đổi mật khẩu</h3>
+                <div class="wrapper">
+                  <div class="container">
+                    <p class="fancy itemProfile_Child_r">Thay đổi mật khẩu</p>
+                  </div>
+                </div>
               </div>
               <div class="itemPass userName">
-                <label class="itemProfile_Child">Mật khẩu cũ </label>
+                <label class="itemProfile_Child itemProfile_Child_r" style="margin-top: 30px;">Mật khẩu cũ </label>
                 <input type="text" class="oldPass inputPass" />
               </div>
               <div class="itemPass email">
-                <label class="itemProfile_Child">Mật khẩu mới: </label>
+                <label class="itemProfile_Child itemProfile_Child_r">Mật khẩu mới: </label>
                 <input type="text" class="newPass inputPass" />
                 <br />
 
@@ -159,7 +140,7 @@
                 </div>
               </div>
               <div class="itemPass price">
-                <label class="itemProfile_Child">Nhập lại mật khẩu mới: </label>
+                <label class="itemProfile_Child itemProfile_Child_r">Nhập lại mật khẩu mới: </label>
                 <input type="text" class="renewPass inputPass" />
                 <br />
                 <span
@@ -173,9 +154,9 @@
               </div>
 
               <div class="flex items-center space-x-4">
-                <button
+                <button 
                   onclick="validatePasswords()"
-                  style="margin-left: 47%; margin-top: 27px"
+                  style="margin-left: 47%; margin-top: 6px"
                   class="rounded-full relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800"
                 >
                   <span
