@@ -62,3 +62,22 @@
     gap: 30px;
     width: 120px;
 }
+
+header { 
+    display: flex;
+
+    background-color: rgb(18, 18, 18);
+}
+.logAndres{ 
+    margin-top: 3px;
+}
+.item_header{ 
+    padding: 10px;
+    border-radius: 2px;
+}
+ .item_header:hover {
+    border-bottom:1px red solid;
+    background-color: rgba(255, 255, 255, 0.253); 
+   
+ }
+ 

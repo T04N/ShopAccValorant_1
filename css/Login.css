@@ -22,7 +22,13 @@ section {
     max-width: 100%;
     width: 446px;
 }
-
+.formLogin {
+    background-image: url(/img/back.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover; /* Kích thước hình nền sẽ luôn full */
+    background-position: center; /* Căn chỉnh hình ảnh vào giữa */
+}
 .formLogin .character-image {
     display: block;
     position: relative;
@@ -37,22 +43,21 @@ section {
     width: 50%;
     padding: 10px;
     border: none;
-    color: white;
+    color: black;
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
-    background-color: #ff9494ff;
-
+    background-color: rgb(255, 69, 84);
 }
 
 .loginButton:hover {
-    background-color: #ff9494;
+    background-color: rgb(255, 69, 84);
     box-shadow: 0px 8px 15px rgba(244, 28, 28, 0.2);
 }
 
 input {
-    border-color: #ff9494ff;
-    box-shadow: 0 0 0 2px #ff9494ff;
+        border-color: black;
+        
 }
 
 .custom-button {
@@ -67,6 +72,7 @@ input {
 }
 
 .form-login {
+   
     opacity: 0;
     animation: fadeIn 1.5s ease forwards;
 }
@@ -102,5 +108,6 @@ input {
 }
 
 #email, #password  {
-    border-color:#4fa9abff;
+    border: none;
+    border-color:black;
 }
