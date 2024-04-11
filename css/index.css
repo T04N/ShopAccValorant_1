@@ -15,3 +15,7 @@ main {
     background-repeat: no-repeat;
     background-size:100% ;
 }
+
+.login   { 
+    font-family:Arial, Helvetica, sans-serif;
+}
