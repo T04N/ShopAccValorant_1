@@ -1,3 +1,12 @@
+@font-face {
+    font-family: customPoppins;
+    src: url('/fonts/DesignerVN-Poppins/DesignerVN-Poppins-Regular.ttf') format('truetype');
+  }
+
+* {
+    font-family: 'customPoppins', sans-serif;
+}
+
 .backdrop-blur {
     backdrop-filter: blur(10px);
 }
@@ -63,6 +72,10 @@
     width: 120px;
 }
 
+.login{
+    
+}
+
 header { 
     display: flex;
 
@@ -72,12 +85,13 @@ header {
     margin-top: 3px;
 }
 .item_header{ 
+    border-bottom:1px solid  transparent ;
     padding: 10px;
     border-radius: 2px;
 }
  .item_header:hover {
     border-bottom:1px red solid;
     background-color: rgba(255, 255, 255, 0.253); 
-   
+  scale: 1.1;
  }
  
