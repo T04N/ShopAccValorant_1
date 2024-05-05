@@ -85,8 +85,11 @@ header {
     margin-top: 3px;
 }
 .item_header{ 
+<<<<<<< HEAD
     margin-right: 20px;
     color: white;
+=======
+>>>>>>> 19a9718f5977cf6f2384d9e982736c6c1626157a
     border-bottom:1px solid  transparent ;
     padding: 10px;
     border-radius: 2px;
@@ -94,6 +97,7 @@ header {
  .item_header:hover {
     border-bottom:1px red solid;
     background-color: rgba(255, 255, 255, 0.253); 
+<<<<<<< HEAD
 
  }
 
@@ -109,4 +113,7 @@ header {
 
  .login { 
     background-color: rgb(255, 69, 84)  ;
+=======
+  scale: 1.1;
+>>>>>>> 19a9718f5977cf6f2384d9e982736c6c1626157a
  }
